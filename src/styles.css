@@ -99,17 +99,25 @@ main {
   color: #000;
 }
 
-.forecast-date {
-  font-size: 16px;
+.weather-forecast-date {
   opacity: 0.6;
 }
 
-.forecast-temperature {
-  font-size: 13px;
+.weather-forecast-temperatures {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  color: #ed5082;
+  margin-top: 10px;
 }
 
-.forecast-temperature-min {
-  opacity: 0.6;
+.weather-forecast-temperature-max {
+  padding-right: 5px;
+}
+
+.weather-forecast-temperature-min {
+  padding-left: 5px;
+  opacity: 0.7;
 }
 
 footer {
